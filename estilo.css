@@ -1,4 +1,79 @@
+/* Fuentes tipograficas */
+  @import url('https://fonts.googleapis.com/css2?family=Alkatra&display=swap');
+  
+  @import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Ubuntu:ital,wght@0,500;0,700;1,400;1,700&display=swap');
+
+
+/* Diseño general */
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+    margin: 0px;
+}
+   /* Encabezado */ 
+header {
+
+    margin: 0px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    color: #ffffff;
+    background-color: #E93F01;
+    background-image: url(img/Header.jpg);
+    background-position: center;
+    background-size: cover ;
+}
+
+
+header > h1 {
+        
+    font-size: 3em;
+    font-family: 'Alkatra', cursive;
+    margin: 0px;
+    text-align: center;
+       
+}
+header > h2 {
+    font-size: 1.5em;
+    font-family: 'Ubuntu',;
+    margin: 0px;
+    text-align: center;
+
+}
+/* Navegación */
+
+nav > ul {
+    margin: 0;
+    background-color: #0091cd;
+    text-align: center;
+}
+nav > ul > li {
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav > ul > li:hover {
+    background-color: #ffb310;
+}
+nav > ul > li > a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/* Cuerpo principal */
+main {
+    max-width: 1320px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Sección catálogo */
+section#catalogo {
+    text-align: center;
+}
+/* Artículos */
+article {
+    width: 24%;
+    max-width: 260px;
+    min-width: 200px;
+    display: inline-block;
+    /* min- width: */
+}
+.imageProduct {
+    width: 100%;
 }
